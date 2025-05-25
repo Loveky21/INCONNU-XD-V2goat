@@ -8,10 +8,10 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || '',
+module.exports = { session: process.env.SESSION_ID || 'INCONNU~XD~OYggzSZA#KmdyNWEb4NIFcWHl0Tci2uzcRmNalyEEBRWmN6m_MVo',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "INCONNU BOY",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || " 554488138425",              
+    OWNER_NAME: process.env.OWNER_NAME || "●⃝🖤᭄ 𝗦.𝗫.𝗢 ⦿𝗦𝗨𝗞𝗨𝗡𝗔 ●⃝❤️‍🔥",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || " 50942872160",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'INCONNU-XD-V2',
@@ -24,7 +24,7 @@ module.exports = { session: process.env.SESSION_ID || '',
     ETAT : process.env.PRESENCE || '',
     CHATBOT : process.env.CHATBOT || 'no',
     DP : process.env.STARTING_BOT_MESSAGE || "yes",
-    ADM : process.env.ANTI_DELETE_MESSAGE || 'no',
+    ADM : process.env.ANTI_DELETE_MESSAGE || 'yes',
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
         ? "postgresql://postgres:bKlIqoOUWFIHOAhKxRWQtGfKfhGKgmRX@viaduct.proxy.rlwy.net:47738/railway" : "postgresql://postgres:bKlIqoOUWFIHOAhKxRWQtGfKfhGKgmRX@viaduct.proxy.rlwy.net:47738/railway",
